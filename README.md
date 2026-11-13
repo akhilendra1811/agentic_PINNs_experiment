@@ -31,7 +31,7 @@ flowchart LR
     F --> N[Post-selection numerical comparison]
 ```
 
-Native Antigravity role definitions, structured proposals, critic reviews and a training approval gate implement this workflow in a later research project. The historical campaigns below used an earlier LLM-led loop; their results are not retrospectively attributed to three separately invoked agents. [Methods](methods/README.md) explains the implementation and how these responsibilities interact.
+Native Antigravity role definitions, structured proposals, critic reviews and a training approval gate implement this workflow. [Methods](methods/README.md) explains the implementation and how these responsibilities interact.
 
 During search, agents use equations, initial/boundary data and fixed physics validation. Numerical references are withheld from selection and used afterwards to measure accuracy. Trial decisions and [literature research logs](research_logs/README.md) record what was proposed, tested, retained and rejected.
 
