@@ -67,7 +67,7 @@ The vertical motion of a massless body is driven by two orbiting primaries. Each
 
 *Post-selection held-out physics loss versus position RMSE exposes the limits of residual-based ranking. The original short baseline did not consume the winner's training time; [the experiment note](experiments/sitnikov/README.md) also discusses the equal-compute follow-up.*
 
-## KdV: keep the experiments separate
+## KdV:
 
 For the historical cosine benchmark, the equation is $u_t+u u_x+0.022^2u_{xxx}=0$, with periodic boundaries, $x\in[-1,1]$, $t\in[0,1]$, and $u(0,x)=\cos(\pi x)$. Trial 046 uses periodic/initial-state features, a residual tanh network, hard initial-condition enforcement and a temporal curriculum.
 
@@ -89,8 +89,6 @@ The 75-exploratory branch selects Trial 067 using reference-free validation, wit
 
 *Mean and sample SD of individual errors at saved diagnostic steps; published PirateNet is a single endpoint marker. The final checkpoint is scored, rather than the best diagnostic checkpoint.*
 
-The `failed_solition_75` branch is a separate three-soliton problem with a different PDE scaling, domain and training contract. Its selected Trial 022 and high residuals must not be merged with the cosine benchmark. [Read the KdV evidence map](experiments/kdv/README.md).
-
 ## Euler–Poisson: transfer and the newer 60-trial campaign
 
 These experiments approximate density, three velocity components and gravitational potential for periodic isothermal self-gravitating flow. Athena++ supplies independent numerical references after selection.
@@ -109,10 +107,6 @@ The newer campaign closed **60 attempts: 58 finite, 2 failures**. Three candidat
 
 [Historical Trial 069](experiments/euler069/README.md) · [New Trial 056](experiments/euler056/README.md)
 
-## Verification and limits
+## Limits
 
-Run `python3 reproducibility/verify.py` to verify the included source-file hashes and recompute the reported aggregate arithmetic without training. See [reproduction instructions](reproducibility/README.md) for source commits, environments, protected-evaluator separation and optional training entry points.
-
-This is pilot evidence from selected campaigns. Actual compute, parameter counts and metrics differ across comparisons. Wall time is hardware-dependent and does not equal FLOPs. Numerical reference grids are not established converged for the supersonic cases. Stronger residual scores do not establish universal accuracy, causal attribution, statistical significance or novelty of familiar optimisation components. A separately deployed three-agent architecture remains a research direction rather than an established implementation here.
-
-Before public release, review redistribution rights and benchmark-independence wording, and review the full [release audit](reports/RELEASE_AUDIT.md). The repository remains private pending owner approval.
+This is pilot evidence from selected campaigns. Actual compute, parameter counts and metrics differ across comparisons. Wall time is hardware-dependent and does not equal FLOPs. Numerical reference grids are not established converged for the supersonic cases. Stronger residual scores do not establish universal accuracy, causal attribution, statistical significance or novelty of familiar optimisation components.
