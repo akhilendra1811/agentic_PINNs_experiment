@@ -27,5 +27,3 @@ The original baseline trained for about 4.74 seconds per case, versus 87.01 seco
 *Velocity on the same cases and interval; variables are nondimensional.*
 
 [Experimental report](report.md) · [50 trial decisions](decisions/README.md) · [Selected model and training code](code/selected_candidate.py) · [Results](results/)
-
-Original project: [Sitnikov research](https://github.com/akhilendra1811/3_body_problem_Pinns_proper_LLM).

@@ -28,5 +28,3 @@ Selected **Trial 067** combines an eight-layer width-176 sinusoidal residual net
 *Individual relative-L2 histories and mean ± sample SD. The final 200k checkpoint is scored; numerical references are diagnostic during these post-selection runs.*
 
 [Experimental report](report.md) · [75 trial decisions](decisions/README.md) · [Code](code/) · [Three final models and results](results/)
-
-Original project: [75-trial KdV research](https://github.com/akhilendra1811/agentic_pinns_KdV/tree/75-exploratory-experiments).

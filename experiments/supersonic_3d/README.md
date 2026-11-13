@@ -40,5 +40,3 @@ Completed two-hour evaluation: **one physical initial condition, seed 104729**, 
 *Signed velocity components for the same slice and fixed two-hour checkpoint. Full-volume errors use all 16,777,216 cells.*
 
 [Experimental report](report.md) · [Both campaigns' trial decisions](decisions/README.md) · [Selected methods](code/) · [Numerical results](results/)
-
-Original project: [Supersonic research](https://github.com/akhilendra1811/codex_iitr_3d).
