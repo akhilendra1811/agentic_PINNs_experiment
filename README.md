@@ -38,14 +38,12 @@ All errors are lower-is-better. Physical cases and random training seeds are dis
 
 | Experiment | Comparison and actual training budget | Evaluation | Saved result | Evidence status |
 |---|---|---|---|---|
-| Sitnikov, Trial 049 | Trial 001 baseline ≈4.74 s/case; winner ≈87.01 s/case, same 90 s cap | Mean in-interval RMSE across 10 held-out IVPs | Position 1.69047 → 0.95798; velocity 0.73174 → 0.45094 | ≈43.33% / 38.37% reduction verified from files; unequal actual compute |
-| KdV, historical Trial 046 | Adapted step schedule, 200,000 updates, ≈117.05 min; published PirateNet value is context | Relative L2 on released 201 × 512 cosine-case grid | 6.47327 × 10⁻⁴; published comparator recorded as 4.27 × 10⁻⁴ | Historical run verified from files; does not beat that recorded paper value |
-| KdV, local equal time | Trial 046 vs checked PyTorch/MPS PirateNet port; 30 min each, one seed | Same cosine-case relative L2 | 0.00175326 vs 0.439478 | Local single-seed comparison; different updates and parameter counts |
-| KdV, local equal updates | 51,573 updates each; ≈29.95 vs 132.05 min | Same cosine-case relative L2 | 0.00175326 vs 0.00906216 | Equal updates, unequal time and FLOPs |
-| KdV, agent-discovered Trial 067 variant | 200,000 updates each; 149.31 / 145.53 / 146.16 min, seeds 99417–99419 | Cosine-case relative L2, 201 × 512 grid | **1.765196 × 10⁻⁴ ± 9.239126 × 10⁻⁶** (mean ± sample SD) | Verified from local outputs and fresh CPU checkpoint inference; ≈2.419× below paper value; benchmark-informed follow-up |
+| Sitnikov, Trial 049 | Trial 001 baseline ≈4.74 s/case; winner ≈87.01 s/case, same 90 s cap | Mean in-interval RMSE across 10 held-out IVPs | Position 1.69047 → 0.95798; velocity 0.73174 → 0.45094 | ≈43.33% / 38.37% reduction|
+| KdV,  equal time | Trial 046 vs checked PyTorch/MPS PirateNet port; 30 min each, one seed | Same cosine-case relative L2 | 0.00175326 vs 0.439478 | Local single-seed comparison; different updates and parameter counts |
+| KdV,  equal updates | 51,573 updates each; ≈29.95 vs 132.05 min | Same cosine-case relative L2 | 0.00175326 vs 0.00906216 | Equal updates, unequal time |
+| KdV, agent-discovered Trial 067 variant | 200,000 updates each; 149.31 / 145.53 / 146.16 min, seeds 99417–99419 | Cosine-case relative L2, 201 × 512 grid | **1.765196 × 10⁻⁴ ± 9.239126 × 10⁻⁶** (mean ± sample SD) | ≈2.419× below paper value; benchmark-informed follow-up |
 | Euler–Poisson, historical Trial 069 | Fresh ≈30 min/method/physical seed; local paper-style P | Full 256³ density RMS log₂ ratio at t=0.8; seeds 419, 733, 947 | Mean ≈0.3957 vs ≈0.4799 | ≈17.5% lower verified from files; seed 733 fails IC eligibility |
-| Euler–Poisson, new Trial 056 | Fresh 7,200 s/method/RNG; P vs 056, physical seed 104729; 3 paired training RNGs | Full 256³ density relative L2 at t=0.8 | Mean 0.341969 vs 0.372813 | Three training RNGs on **one physical case**; no three-case generalisation claim |
-| Same Trial 056 evaluation | Same six fits | Full-volume density RMS log₂ ratio | Mean 0.411362 vs 0.465419 | Different metric from relative L2; no direct comparison to 069 on a different IC |
+| Euler–Poisson, new Trial 056 | Fresh 7,200 s/method/RNG; P vs 056, physical seed 104729; 3 paired training RNGs | Full 256³ density relative L2 at t=0.8 | Mean 0.341969 vs 0.372813 | Three training RNGs on **one physical case** |
 
 Exact input files, seeds, formulas and calculations are in [the claim audit](reports/CLAIM_AUDIT.md). The PirateNet comparator 4.27 × 10⁻⁴ is independently checked in [Wang et al., JMLR 2024, §5.2 and Table 3](https://www.jmlr.org/papers/volume25/24-0313/24-0313.pdf). It is a published endpoint, not an equal-FLOP local comparison.
 
