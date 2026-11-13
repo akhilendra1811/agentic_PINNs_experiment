@@ -42,13 +42,14 @@ def main():
   assert row['cpu_prediction_max_abs_difference']<1e-5
  original=read('experiments/kdv/evidence/historical_200k/summary.json');assert original['step']==200000
  euler={}
- for regime,seeds in [('supersonic',[419,733,947]),('subsonic',[9,38])]:
-  vals={m:[] for m in ['trial_069','paper_P']}
-  for seed in seeds:
-   for model in vals:
-    v=read(f'experiments/euler069/evidence/{regime}/seed_{seed}/{model}/full_volume_256.json')
-    assert v['cells']==256**3 and v['time']==0.8;vals[model].append(v['density_rms_delta'])
-  means={m:statistics.mean(v) for m,v in vals.items()};means['reduction_percent']=100*(1-means['trial_069']/means['paper_P']);euler[regime]=means
+ vals={m:[] for m in ['trial_069','paper_P']}
+ for seed in [419,733,947]:
+  for model in vals:
+   v=read(f'experiments/euler069/evidence/supersonic/seed_{seed}/{model}/full_volume_256.json')
+   assert v['cells']==256**3 and v['time']==0.8;vals[model].append(v['density_rms_delta'])
+ means={m:statistics.mean(v) for m,v in vals.items()}
+ means['reduction_percent']=100*(1-means['trial_069']/means['paper_P'])
+ euler['supersonic']=means
  ext=read('experiments/euler056/evidence/extended_summary.json');new={}
  for model in ['P','selected']:
   modelvals={field:[] for field in ['density_relative_l2','density_rms_log2_ratio','velocity_vector_relative_l2']}

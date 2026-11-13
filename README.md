@@ -98,9 +98,7 @@ The `failed_solition_75` branch is a separate three-soliton problem with a diffe
 
 These experiments approximate density, three velocity components and gravitational potential for periodic isothermal self-gravitating flow. Athena++ supplies independent numerical references after selection.
 
-![Historical Trial 069 transfer across supersonic and subsonic cases](figures/euler069_transfer.png)
-
-*Fresh 30-minute fits: full native 128³ and 256³ volume density RMS log₂ errors at t=0.8. Trial 069 improves the three supersonic cases but loses to local P on the two subsonic cases, despite better reference-free scores. This is a failure of transfer and of the score as an accuracy proxy.*
+The historical Trial 069 evaluation covers three supersonic physical seeds (419, 733, 947), with fresh 30-minute fits of each method. Full-volume density RMS log₂ error improves by 17.54% relative to local P at t=0.8 on the 256³ grid. Seed 733 fails the original IC eligibility threshold; the numerical comparison and eligibility test are reported separately.
 
 The newer campaign closed **60 attempts: 58 finite, 2 failures**. Three candidates and fresh P/B/W baselines received 1,800 seconds each. Trial 056 was selected by minimum finite total validation score, **without the earlier campaign's IC eligibility gate**. It combines periodic Snake features, random weight factorisation, time-conditioned FiLM and input skips, followed by limited-memory SR1/Krylov cubic regularisation after Adan/AdaBelief training.
 

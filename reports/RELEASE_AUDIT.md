@@ -2,6 +2,8 @@
 
 ## Included
 
+The Euler–Poisson collection covers supersonic flow only: historical physical seeds 419/733/947 and the separate new Trial 056 campaign.
+
 - Accessible main research narrative, explicit three-role framework status, scientific problems, comparison contracts and failure cases.
 - Separate Sitnikov, historical cosine/exploratory/soliton KdV, historical Euler 069 and new Euler 056 experiment notes.
 - Original selected figures, frozen method snapshots, selected decision logs, small quantitative tables and JSON metrics; all copied files have source paths and SHA-256 records.

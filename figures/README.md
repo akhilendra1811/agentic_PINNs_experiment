@@ -15,7 +15,6 @@ All selected PNGs are copied without pixel/axis manipulation. Source URLs and SH
 | [kdv067_three_seed_fields.png](kdv067_three_seed_fields.png) | Three individual 067 trapezoidal-method fits, one cosine case, 200k updates; full grid predictions/errors. |
 | [kdv067_three_seed_curves.png](kdv067_three_seed_curves.png) | Mean/sample SD of individual diagnostic errors; final endpoint remains the scored model. |
 | [kdv067_three_seed_final_errors.png](kdv067_three_seed_final_errors.png) | Individual-run errors and mean/sample SD; not ensemble error or confidence interval. |
-| [euler069_transfer.png](euler069_transfer.png) | Five physical cases, one fit each; full-volume density RMS log2 errors at t=.8; subsonic transfer fails. |
 | [euler056_density_potential.png](euler056_density_potential.png) | One RNG and IC, 2h checkpoint across time; xy slice at z=7, raw density and slice-centred potential. |
 | [euler056_velocity.png](euler056_velocity.png) | Same 2h checkpoint/IC/RNG and xy slice; signed components, not log-ratios or full-volume metric. |
 

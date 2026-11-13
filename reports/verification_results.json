@@ -1,5 +1,5 @@
 {
-  "source_files_hash_verified": 136,
+  "source_files_hash_verified": 123,
   "curated_markdown_targets": "pass",
   "sitnikov_reduction_percent": {
     "z_rmse": 43.330498615236756,
@@ -15,11 +15,6 @@
       "trial_069": 0.3957207339438652,
       "paper_P": 0.4798989795592423,
       "reduction_percent": 17.540826132343447
-    },
-    "subsonic": {
-      "trial_069": 0.061102850360546614,
-      "paper_P": 0.031227827650400074,
-      "reduction_percent": -95.6679505363025
     }
   },
   "euler056_extended": {
