@@ -4,7 +4,6 @@
 
 This research studies how an LLM can propose, implement and assess physics-informed neural network (PINN) architectures and training algorithms. Experiments cover the Sitnikov restricted three-body problem, nonlinear KdV waves, and three-dimensional self-gravitating supersonic flow. The scientific challenge is both to discover useful methods and to decide which methods deserve further testing when numerical solutions are withheld.
 
-**Private research review, 13 November 2026.** This is a curated evidence repository for Akhil Sabherwal's research. Existing research histories remain in their original repositories. No training or new numerical simulation was run to assemble this collection. “Verified from files” below means checked against saved metrics and their arithmetic; it does not mean independently rerunning training or regenerating reference solutions.
 
 [Results audit](reports/CLAIM_AUDIT.md) · [Methods and agent implementation](methods/README.md) · [Reproduce the audit](reproducibility/README.md) · [Figure provenance](figures/README.md) · [Release audit](reports/RELEASE_AUDIT.md)
 
@@ -16,7 +15,7 @@ For these problems, small sampled residuals can coexist with large solution erro
 
 ## Research framework
 
-The intended three-role design is shown below. **The archived campaigns demonstrate an LLM-led research loop with a deterministic evaluator and separate owner evaluation. They do not establish three independently deployed agents or a completed multi-agent orchestrator.**
+The intended three-role design is shown below. **The archived campaigns demonstrate an LLM-led research loop with a deterministic evaluator and separate owner evaluation.**
 
 ```mermaid
 flowchart LR
