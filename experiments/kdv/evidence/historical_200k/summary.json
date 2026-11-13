@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "stop_reason": "max_steps",
+  "step": 200000,
+  "loop_elapsed_seconds": 7023.17971108295,
+  "finalization_elapsed_seconds": 7023.321152332937,
+  "final_metrics": {
+    "step": 200000,
+    "elapsed_seconds": 7023.211519290926,
+    "relative_l2": 0.0006473270668659449,
+    "rmse": 0.0004576823582886694,
+    "max_abs_error": 0.002213659779796373,
+    "alpha": 0.6033013463020325
+  },
+  "first_below_paper": null
+}

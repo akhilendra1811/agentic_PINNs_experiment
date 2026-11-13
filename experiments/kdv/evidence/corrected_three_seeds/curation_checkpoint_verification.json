@@ -1,0 +1,43 @@
+{
+  "scope": "Independent local audit during curation: recomputed saved prediction errors against kdv.mat, loaded each final checkpoint on CPU, verified 200000 optimizer counters, fresh inference; no training",
+  "runs": [
+    {
+      "seed": 99417,
+      "source_directory": "/Users/user/Desktop/KdV_Repo_Structure_50_Trials/comparison_study/outputs/winner_b067_trapezoid_200k",
+      "reference_sha256": "0df03aee69597c8913f7120324303f663db617be3789b9ff35beb29303b1c087",
+      "checkpoint_sha256": "b8260416b42f23e467408e7020e5c67c1d95968fce669c091ed2c7c4a7f8a58c",
+      "candidate_sha256": "94ce8f7fa29dbb035192bad0efa65f841db89884cf408d456b21433337a60d2a",
+      "step": 200000,
+      "saved_prediction_relative_l2": 0.0001682912994005027,
+      "cpu_reload_relative_l2": 0.0001682962827698071,
+      "cpu_prediction_max_abs_difference": 5.0067901611328125e-06,
+      "grid_points": 102912
+    },
+    {
+      "seed": 99418,
+      "source_directory": "/Users/user/Desktop/KdV_Repo_Structure_50_Trials/comparison_study/outputs/winner_b067_trapezoid_local_seed_99418",
+      "reference_sha256": "0df03aee69597c8913f7120324303f663db617be3789b9ff35beb29303b1c087",
+      "checkpoint_sha256": "20cb55d2007c8985ddc7a7df48a8316db31850eaf127ab66d8fddb6c82214b42",
+      "candidate_sha256": "94ce8f7fa29dbb035192bad0efa65f841db89884cf408d456b21433337a60d2a",
+      "step": 200000,
+      "saved_prediction_relative_l2": 0.00017475315097264377,
+      "cpu_reload_relative_l2": 0.00017475395249014927,
+      "cpu_prediction_max_abs_difference": 3.814697265625e-06,
+      "grid_points": 102912
+    },
+    {
+      "seed": 99419,
+      "source_directory": "/Users/user/Desktop/KdV_Repo_Structure_50_Trials/comparison_study/outputs/winner_b067_trapezoid_local_seed_99419",
+      "reference_sha256": "0df03aee69597c8913f7120324303f663db617be3789b9ff35beb29303b1c087",
+      "checkpoint_sha256": "5090637309022df3e525d66612f81d33fa303e3a155caace2163dffb9788e0ff",
+      "candidate_sha256": "94ce8f7fa29dbb035192bad0efa65f841db89884cf408d456b21433337a60d2a",
+      "step": 200000,
+      "saved_prediction_relative_l2": 0.0001865144794569296,
+      "cpu_reload_relative_l2": 0.00018651120026905483,
+      "cpu_prediction_max_abs_difference": 5.125999450683594e-06,
+      "grid_points": 102912
+    }
+  ],
+  "relative_l2_mean": 0.00017651964327669201,
+  "relative_l2_sample_sd": 9.239125723651295e-06
+}

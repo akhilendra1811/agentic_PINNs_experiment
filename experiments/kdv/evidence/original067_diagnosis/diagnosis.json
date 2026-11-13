@@ -1,0 +1,41 @@
+{
+  "trial46_200k_150min": {
+    "reference": {
+      "naive_mass_rms": 0.0026128980985835747,
+      "trapezoid_mass_rms": 2.2128558292973587e-16,
+      "naive_energy_error_rms": 0.0010812751444390012,
+      "trapezoid_energy_error_rms": 3.511807224977643e-12
+    },
+    "prediction": {
+      "naive_mass_rms": 0.0026153012276937146,
+      "trapezoid_mass_rms": 6.694316845741817e-06,
+      "naive_energy_error_rms": 0.0010900579932422978,
+      "trapezoid_energy_error_rms": 2.5214987802215373e-05
+    },
+    "fraction_error_sse_explained_by_spatial_mean_offset": 5.428096447611613e-05
+  },
+  "winner_b067_200k": {
+    "reference": {
+      "naive_mass_rms": 0.0026128980985835747,
+      "trapezoid_mass_rms": 2.2128558292973587e-16,
+      "naive_energy_error_rms": 0.0010812751444390012,
+      "trapezoid_energy_error_rms": 3.511807224977643e-12
+    },
+    "prediction": {
+      "naive_mass_rms": 0.0024111071387944954,
+      "trapezoid_mass_rms": 0.0002686040500662297,
+      "naive_energy_error_rms": 0.0009828185962071192,
+      "trapezoid_energy_error_rms": 0.00015770959612808916
+    },
+    "fraction_error_sse_explained_by_spatial_mean_offset": 0.008559339675763358
+  },
+  "best_observed_reference_checkpoint": {
+    "step": 104000,
+    "elapsed_seconds": 4552.034264709,
+    "relative_l2": 0.0007714198508219753,
+    "rmse": 0.0005454201973420827,
+    "max_abs_error": 0.0030932090494011355,
+    "alpha": 0.7898104786872864
+  },
+  "qualification": "Best observed error is a posthoc diagnostic, not an eligible replacement for the final checkpoint. Conservation quadrature bias is confirmed; causal attribution of test-error deterioration requires a controlled ablation."
+}

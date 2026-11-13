@@ -1,0 +1,28 @@
+{
+  "step": 200000,
+  "optimizer_step_counters": [
+    200000
+  ],
+  "relative_l2": 0.0006473270668659449,
+  "rmse": 0.0004576823582886694,
+  "max_abs_error": 0.002213659779796373,
+  "cpu_reload_relative_l2": 0.0006473259111710943,
+  "cpu_vs_saved_prediction_max_abs_difference": 2.1457672119140625e-06,
+  "reference_grid_points": 102912,
+  "model_parameters": 181442,
+  "validation_cpu": {
+    "val_physics": 1.65658751264988e-06,
+    "val_ic": 0.0,
+    "val_full": 1.65658751264988e-06,
+    "val_bc_u": 8.76689544619427e-15,
+    "val_bc_ux": 5.745496325801968e-13,
+    "val_bc_uxx": 9.639965111403656e-10,
+    "val_bc_total": 9.64579827668392e-10,
+    "validation_grid_points": 102912,
+    "ic_points": 512
+  },
+  "below_paper_observed": false,
+  "paper_relative_l2": 0.000427,
+  "candidate_sha256": "f17f97beac032bccedf62cec21f9bf2e6835cd5f07215de9a4fe7149d49a444b",
+  "reference_sha256": "0df03aee69597c8913f7120324303f663db617be3789b9ff35beb29303b1c087"
+}

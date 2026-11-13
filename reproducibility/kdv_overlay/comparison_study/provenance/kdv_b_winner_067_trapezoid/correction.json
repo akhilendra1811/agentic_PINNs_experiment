@@ -1,0 +1,6 @@
+{
+  "parent_trial": 67,
+  "parent_candidate_sha256": "82cb2913d504de2b8c347e84f6e71574d5479255d22998f7024df5bb730872ef",
+  "corrected_candidate_sha256": "94ce8f7fa29dbb035192bad0efa65f841db89884cf408d456b21433337a60d2a",
+  "only_method_change": "Trapezoidal integration of mass and squared-L2 energy on the unchanged inclusive grid; architecture, optimizer, penalty weights and sampling unchanged"
+}

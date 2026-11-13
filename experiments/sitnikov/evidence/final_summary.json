@@ -1,0 +1,12 @@
+{
+  "selected_trial": 49,
+  "num_test_cases": 10,
+  "mean_metrics": {
+    "val_full_PINN_loss": 9.470810494107695e-05,
+    "z_rmse": 0.9579833403672205,
+    "v_rmse": 0.4509443210153374,
+    "forecast_z_rmse": 2.4190134411438176,
+    "forecast_v_rmse": 0.8675462838606354
+  },
+  "note": "Post-selection human-only evaluation; no reference data seen during search"
+}

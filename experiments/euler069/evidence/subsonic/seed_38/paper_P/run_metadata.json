@@ -1,0 +1,11 @@
+{
+  "seed": 38,
+  "amplitude": 0.1,
+  "model": "paper_P",
+  "seconds": 1792.0657261250017,
+  "source_sha256": "198ed48eca4d0c76d6cfa093faceed3be0035dacb5e5fd8e98b33ca14a446ee9",
+  "checkpoint_sha256": "9171086c467c1b9e1759301e64af2c8d5c707a40cbacf2bd470c1cde940cc6c6",
+  "train_sha256": "0b3c3f6a539d618a087a8b6e9efba018d29fa3315f8ec99996f5d15053b01f2a",
+  "validation_sha256": "ef2348c1891fbf1bcb69a093a059144ba6c32ad1d0a0ec16bc48d85fc249198e",
+  "training_rng_seed": 823001
+}

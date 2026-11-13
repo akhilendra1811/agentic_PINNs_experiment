@@ -1,0 +1,77 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 1751,
+    "sha256": "8df1a170c05fbbccb731b50dc7ce35c495173c0988241742595ce00581b85c66"
+  },
+  {
+    "path": "error_mean_sd_by_step.csv",
+    "bytes": 10156,
+    "sha256": "c2983da4e4e238c7c09493a42ae3fb49b35d80cc11e864e9df352669c163de17"
+  },
+  {
+    "path": "per_seed_metrics.csv",
+    "bytes": 413,
+    "sha256": "5037b309123af13b0129c3db1f249fdca87bca95ecf2851c431b7e02d426fe2f"
+  },
+  {
+    "path": "per_seed_solution_and_error.pdf",
+    "bytes": 536736,
+    "sha256": "f1b748c86dedc6e2b9767e4cee0c0cf6f9211f32579e0dd08983aa981e91e6ed"
+  },
+  {
+    "path": "per_seed_solution_and_error.png",
+    "bytes": 1004856,
+    "sha256": "f99d4fc8a30dd17bd2e711c92ef1bf02ad23043e32a921a9754b453a67e92cd9"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 643,
+    "sha256": "8f4b45cc883c539ba1bccfeaad4ad2e599f1e7cc7cad7fc4045060cc81d50076"
+  },
+  {
+    "path": "three_seed_absolute_error_sd.pdf",
+    "bytes": 119422,
+    "sha256": "4296fb10bb08e32b42ca19f98647a72c5d3d60e0f3cf08b2af6ea3ca4f9f8170"
+  },
+  {
+    "path": "three_seed_absolute_error_sd.png",
+    "bytes": 229081,
+    "sha256": "8725979b2ca2c1aa90f9714415575cfc2cdad44f5e9c471ee0803e19cbe22965"
+  },
+  {
+    "path": "three_seed_error_curves.pdf",
+    "bytes": 42711,
+    "sha256": "3874092b7078d71fec97251f67986d72b069207a92927bc5e304303f416f2dba"
+  },
+  {
+    "path": "three_seed_error_curves.png",
+    "bytes": 340575,
+    "sha256": "d6c7dcfd56bf16188ead700d524d8c3b79ec5e0d4056e02dbc9f4b571d20ffa5"
+  },
+  {
+    "path": "three_seed_fields.npz",
+    "bytes": 3815989,
+    "sha256": "683883ff22adddc25396c85ac1e1ebba8fee3a4585cd2fb6dc74d89f2f235500"
+  },
+  {
+    "path": "three_seed_final_errors.pdf",
+    "bytes": 20192,
+    "sha256": "78fb239afe1a78bc77e52040013d21511fd9a0278516859320a2b8917b28dbe5"
+  },
+  {
+    "path": "three_seed_final_errors.png",
+    "bytes": 41231,
+    "sha256": "e6ce815dc1e009f45953900288ba5fb1e7b21773b9c9676f1b6b8e764f61a10b"
+  },
+  {
+    "path": "three_seed_solution_summary.pdf",
+    "bytes": 220034,
+    "sha256": "ef0653389e006fef4948b4678a38995c381ce86248d83ce09f68b4a00d449401"
+  },
+  {
+    "path": "three_seed_solution_summary.png",
+    "bytes": 426086,
+    "sha256": "ee278e24eafdd656a9544c303654837c247c04f05973b913a6c8b103d5effaa2"
+  }
+]

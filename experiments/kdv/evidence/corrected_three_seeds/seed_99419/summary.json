@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "stop_reason": "max_steps",
+  "step": 200000,
+  "loop_elapsed_seconds": 8769.778760791996,
+  "finalization_elapsed_seconds": 8769.960548999996,
+  "final_metrics": {
+    "step": 200000,
+    "elapsed_seconds": 8769.813918291999,
+    "relative_l2": 0.00018651447945692963,
+    "rmse": 0.0001318721109965718,
+    "max_abs_error": 0.0006384279555856631,
+    "alpha": 0.7584866285324097
+  },
+  "first_below_paper": {
+    "step": 147000,
+    "elapsed_seconds": 6448.441537166997,
+    "relative_l2": 0.00038409491742927564,
+    "rmse": 0.0002715682328360413,
+    "max_abs_error": 0.0017226439671089722,
+    "alpha": 0.7595086097717285,
+    "paper_relative_l2": 0.000427,
+    "meaning": "first evaluated checkpoint below threshold; crossing between checks is unknown",
+    "previous_evaluated_step": 146000
+  }
+}

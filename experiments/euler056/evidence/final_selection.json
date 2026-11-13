@@ -1,0 +1,172 @@
+{
+  "selected_method": "trial_056",
+  "trial": null,
+  "baseline": null,
+  "finalist_stage": true,
+  "selection_rule": "minimum finite L_val only",
+  "all_matched_1800_second_scores": {
+    "P": 0.19061709951652267,
+    "B": 0.5546189482188074,
+    "W": 1.0608407675720328,
+    "trial_054": 0.1060483416008159,
+    "trial_053": 0.10566740875133748,
+    "trial_056": 0.10566120269450875
+  },
+  "source_sha256": "c17b898b69142be7552e5a23cd44d508f14ef102664878cfb419910fdedb9aea",
+  "checkpoint_sha256": "fc68643f6c0174984ca5f66ffa9a0f6755c623684183b36d23d88a8f2020880a",
+  "physics_engine_sha256": "aecb2c3eb89383671a614e74668863ade22d7879496f616af3ea49a53c944587",
+  "validation_data_sha256": "34eae811ad9a6fe8f91f82d7a967ea54bf3adfc65a27cb4e5a6a80fa362699ac",
+  "metrics": {
+    "L_val": 0.10566120269450875,
+    "physics_weighted": 0.02470964000453259,
+    "ic_relative_l2": 0.28451988101005554,
+    "ic_relative_mse": 0.08095156268997616,
+    "windows": {
+      "early": {
+        "continuity": 0.013786591912892889,
+        "momentum": 0.03817240604683338,
+        "poisson": 0.0010754292950189532,
+        "total": 0.05303442725474523
+      },
+      "middle": {
+        "continuity": 0.003009828684280548,
+        "momentum": 0.010193614311656204,
+        "poisson": 0.0008330644851474073,
+        "total": 0.01403650748108416
+      },
+      "late": {
+        "continuity": 0.0067945518136678425,
+        "momentum": 0.011398466624606654,
+        "poisson": 0.0015905861802420975,
+        "total": 0.019783604618516595
+      }
+    },
+    "density_diagnostics": {
+      "mean_density": {
+        "0.0": 1.0,
+        "0.2": 0.996788740158081,
+        "0.5": 0.9957817792892456,
+        "0.8": 0.9950120449066162
+      },
+      "relative_mass_drift": {
+        "0.0": 0.0,
+        "0.2": -0.0032112598419189453,
+        "0.5": -0.0042182207107543945,
+        "0.8": -0.004987955093383789
+      },
+      "density_std": {
+        "0.0": 0.0,
+        "0.2": 0.17183269560337067,
+        "0.5": 0.4237182140350342,
+        "0.8": 0.7147597670555115
+      },
+      "density_p99": {
+        "0.0": 1.0,
+        "0.2": 1.4153176546096802,
+        "0.5": 2.2948639392852783,
+        "0.8": 3.6739768981933594
+      },
+      "grid": 32
+    },
+    "physical_checks": {
+      "min_sampled_density": 0.3368290662765503,
+      "rho0_max_abs_err": 0.0,
+      "periodic_max_abs_err": 1.9073486328125e-06
+    },
+    "window_weights": {
+      "early": 0.2,
+      "middle": 0.3,
+      "late": 0.5
+    },
+    "time_windows": {
+      "early": [
+        0.0,
+        0.2
+      ],
+      "middle": [
+        0.2,
+        0.5
+      ],
+      "late": [
+        0.5,
+        0.8
+      ]
+    },
+    "warning": "Reference-free residual score, NOT numerical-solution accuracy"
+  },
+  "reason": "All60 numbered attempts closed;the latest user amendment limited the shortlist to three candidates054/053/056. All six fresh1800-second fits completed with unchanged sources,data and score. Trial056 has the sole minimum L_val0.10566120269450875;trial0530.10566740875133748;trial0540.1060483416008159;P0.19061709951652267;B0.5546189482188074;W1.0608407675720328. Select056 by total score only,without IC or physical diagnostic gates. The0.00000620605682873 gap to053 is not statistical evidence of optimizer superiority. No Athena or protected evaluation outcomes informed selection.",
+  "novelty_report": {
+    "prepared": 60,
+    "closed": 60,
+    "distinct_claimed_mechanisms": 50,
+    "mechanism_ids": [
+      "adabelief_gradient_prediction_variance",
+      "adafactor_factored_second_moments",
+      "adan_gradient_difference_momentum",
+      "additive_coarse_fine_periodic_branches",
+      "alternating_bb_nonmonotone_spectral_gradient",
+      "analytic_fourier_poisson_coupled_fields",
+      "augmented_lagrangian_signed_residual_means",
+      "compressed_component_levenberg_marquardt",
+      "config_two_task_descent",
+      "conservative_momentum_residual_training",
+      "cyclic_block_bfgs_gauss_seidel",
+      "entropy_regularised_task_minimax_weights",
+      "extragradient_predictor_corrector",
+      "finite_difference_inexact_newton_cg",
+      "full_ic_proximal_linear_readout_solves",
+      "full_pool_restarted_conjugate_gradient",
+      "gaussian_hidden_ridge_units",
+      "gradient_enhanced_euler_poisson_residuals",
+      "gradient_statistic_ic_loss_annealing",
+      "hidden_logscale_random_weight_factorisation",
+      "inexact_proximal_point_pr_subproblems",
+      "isru_algebraic_saturation_representation",
+      "learned_chebyshev_hidden_activations",
+      "limited_memory_bfgs_dogleg_trust_region",
+      "limited_memory_dfp_inverse_metric",
+      "limited_memory_sr1_steihaug_trust_region",
+      "lion_sign_momentum",
+      "lookahead_slow_fast_updates",
+      "low_rank_space_time_separable_representation",
+      "multiadam_taskwise_moments",
+      "muon_matrix_momentum_preconditioning",
+      "nadam_nesterov_adaptive",
+      "negative_order_fourier_ic_moment_constraints",
+      "oblique_integer_fourier_embedding",
+      "pde_compatible_initial_time_jets",
+      "periodic_input_multiplicative_filter_network",
+      "radam_variance_rectification",
+      "real_gabor_windowed_sine_representation",
+      "regularized_anderson_gradient_acceleration",
+      "repeated_periodic_input_skip_connections",
+      "residual_dependent_causal_temporal_gates",
+      "shampoo_inverse_root_preconditioning",
+      "sharpness_aware_minimization",
+      "smooth_temporal_partition_experts",
+      "snake_linear_periodic_representation",
+      "soap_rotated_adam_preconditioning",
+      "sr1_krylov_cubic_regularisation",
+      "swish_hidden_representation",
+      "tanh_hidden_representation",
+      "time_conditioned_hidden_film"
+    ],
+    "areas": {
+      "optimisation": 15,
+      "activation_representation": 15,
+      "pinn_methodology": 10,
+      "combinations_refinements": 10,
+      "classical_optimisation": 10
+    },
+    "target_area_trials": {
+      "optimisation": 15,
+      "activation_representation": 15,
+      "pinn_methodology": 10,
+      "combinations_refinements": 10,
+      "classical_optimisation": 10
+    },
+    "important": "Mechanism IDs are bookkeeping and do not establish scientific novelty."
+  },
+  "selected_at": "2026-11-12T17:50:54.453827+00:00",
+  "warning": "No eligibility gates. Reference-free selection only; previous evaluated seeds are not blind."
+}

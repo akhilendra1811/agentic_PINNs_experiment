@@ -1,0 +1,11 @@
+{
+  "step": 149000,
+  "elapsed_seconds": 6734.767841917001,
+  "relative_l2": 0.0004117444330141166,
+  "rmse": 0.0002911173852601435,
+  "max_abs_error": 0.0020276932880971543,
+  "alpha": 0.8108729124069214,
+  "paper_relative_l2": 0.000427,
+  "meaning": "first evaluated checkpoint below threshold; crossing between checks is unknown",
+  "previous_evaluated_step": 148000
+}

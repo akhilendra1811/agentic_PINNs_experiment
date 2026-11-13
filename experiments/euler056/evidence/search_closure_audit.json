@@ -1,0 +1,46 @@
+{
+  "closed_attempts": 60,
+  "finite": 58,
+  "failures": [
+    15,
+    41
+  ],
+  "research_area_counts": {
+    "optimisation": 15,
+    "activation_representation": 15,
+    "pinn_methodology": 10,
+    "combinations_refinements": 10,
+    "classical_optimisation": 10
+  },
+  "checks": [
+    "all60terminal",
+    "allsource/PREhashes",
+    "ordered decision records and matching metrics/metadata",
+    "frozen L_val recomputation",
+    "allfinite training times<=750 and params<=750000",
+    "data hashes/RNG",
+    "all current locked engine hashes",
+    "core unchanged from initial",
+    "three-lowest-score shortlist"
+  ],
+  "best_trial": 54,
+  "best_L_val": 0.11397143940087355,
+  "shortlist": [
+    {
+      "trial": 54,
+      "L_val": 0.11397143940087355,
+      "source_sha256": "02a84e32ac4ab14012c80e96691031d0147dbe9c9556cca6c444e7dfbece9c68"
+    },
+    {
+      "trial": 53,
+      "L_val": 0.11407538375028281,
+      "source_sha256": "45c48016f7ebc23cf3328afec2522f20b514e8c9d33e1c7f78cbb59c43d2e771"
+    },
+    {
+      "trial": 56,
+      "L_val": 0.11422092571692875,
+      "source_sha256": "c17b898b69142be7552e5a23cd44d508f14ef102664878cfb419910fdedb9aea"
+    }
+  ],
+  "remaining": "Three fresh1800second finalist candidates plus P/B/W,then lowest-score selection/sourcefreeze/report. No owner evaluation."
+}

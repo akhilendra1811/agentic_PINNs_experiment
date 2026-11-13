@@ -1,0 +1,26 @@
+{
+  "n": 3,
+  "seeds": [
+    99417,
+    99418,
+    99419
+  ],
+  "steps": 200000,
+  "device": "mps",
+  "torch_version": "2.14.1",
+  "statistics": {
+    "relative_l2": {
+      "mean": 0.00017651964327669201,
+      "sample_sd": 9.239125723651295e-06
+    },
+    "rmse": {
+      "mean": 0.00012480542024960911,
+      "sample_sd": 6.532377628204355e-06
+    },
+    "max_abs_error": {
+      "mean": 0.0006018704401234235,
+      "sample_sd": 3.372581934090414e-05
+    }
+  },
+  "qualification": "Same-device fixed-method replication of a test-informed corrected variant; sample SD is not a confidence interval. Reference labels were diagnostic only."
+}

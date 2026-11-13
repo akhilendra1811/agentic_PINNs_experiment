@@ -1,0 +1,11 @@
+{
+  "seed": 733,
+  "amplitude": 1.1,
+  "model": "trial_069",
+  "seconds": 1798.0114540420036,
+  "source_sha256": "90bbc1084b792f26fd628be99f67bc3f5ec8013d6b9d10e97bac23765fbd22e4",
+  "checkpoint_sha256": "41e07adffca575fabd9d48e5a80d1245ea73fe077d4f9b6974cf1bcd3a420107",
+  "train_sha256": "8a7aecf039fee79fab3aee92bbcff78edd97e489b8950cf27af6e3e4cc7f36b2",
+  "validation_sha256": "d449310fb1865c2abc3b350630795ea8535959ebc7208ce5fddb7eb75a6d5dfc",
+  "training_rng_seed": 823001
+}
