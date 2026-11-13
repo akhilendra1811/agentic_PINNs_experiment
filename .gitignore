@@ -2,11 +2,8 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
-*.pt
-*.pth
-*.npz
-*.vtk
-*.zip
 .env
 .env.*
-!experiments/kdv/evidence/corrected_three_seeds/seed_*/final.pt
+experiments/*/runs/
+*.vtk
+*.zip

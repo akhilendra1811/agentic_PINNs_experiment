@@ -1,7 +1,0 @@
-# Rights and attribution
-
-This private collection documents Akhil Sabherwal's research, with original source paths and hashes. The requested source repository trees have no root-level redistribution licence located in this review. No new blanket open-source licence is applied: all existing rights remain with their respective holders. Permission to curate the owner's research does not establish rights to relicense third-party implementations or data.
-
-Included figures are research-generated outputs from the owner's source projects, not copied figures from published papers. Their reference-data provenance still needs a redistribution review before public release. The PirateNet article is linked and cited, not redistributed. No JAX-PI vendor implementation, Athena++ binary, third-party raw `kdv.mat`, paper screenshot, notes template licence or unrelated document is republished here. Frozen candidates and checkpoints retain their scientific provenance; review any adapted algorithm implementation's notice requirements before choosing a public licence.
-
-PirateNets: S. Wang, B. Li, Y. Chen and P. Perdikaris, JMLR 25(402), 2024, [article](https://www.jmlr.org/papers/v25/24-0313.html). The benchmark citation is not a claim to authorship of PirateNet. Other named methods (SOAP, AdEMAMix, SR1, FiLM, Snake, Adam, etc.) retain their established attribution; combinations explored by agents are not automatically novel inventions.

@@ -1,0 +1,33 @@
+{
+  "selected_trial": 67,
+  "variant": "trapezoidal conservation quadrature",
+  "model_parameters": 219650,
+  "optimizer": "frozen SOAPAdEMAMix; frequency=80; eps=1e-8; zero weight decay",
+  "invariant_weight": 0.1,
+  "invariant_slices": 8,
+  "invariant_spatial_points": 512,
+  "case": {
+    "case_id": "test_01",
+    "amplitude_1": 1.0,
+    "frequency_1": 1,
+    "amplitude_2": 0.0,
+    "frequency_2": 0
+  },
+  "pde": "u_t + u*u_x + 0.022^2*u_xxx = 0",
+  "periodic_derivatives": [
+    0,
+    1,
+    2
+  ],
+  "max_steps": 200000,
+  "budget_seconds": null,
+  "eval_every": 1000,
+  "checkpoint_every": 5000,
+  "batch_size": 4096,
+  "seed": 99419,
+  "device": "mps",
+  "paper_relative_l2": 0.000427,
+  "schedule": "step fraction of max_steps; 35% domain expansion and alpha warmup, then 65% cosine LR decay",
+  "timing": "elapsed run loop includes diagnostics/checkpoints; setup and finalization excluded",
+  "torch_version": "2.14.1"
+}
